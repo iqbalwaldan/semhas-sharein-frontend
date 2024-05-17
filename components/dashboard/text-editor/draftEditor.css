@@ -1,0 +1,42 @@
+#toolbar {
+  border: none;
+}
+
+#editor {
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+}
+#toolbar2 {
+  border: none;
+}
+
+#editor2 {
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+}
+
+.ql-editor {
+  color: #6a6a6a;
+}
+
+@media screen and (min-width: 768px) {
+  #editor {
+    height: 200px;
+    width: 300px;
+  }
+  #editor2 {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  #editor {
+    height: 324px;
+    width: 506px;
+  }
+  #editor2 {
+    height: 324px;
+    width: 506px;
+  }
+}

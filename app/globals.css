@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f8f6f6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e9e7e7;
+}
+
+.loading {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #2652ff 94%, #0000) top/4px 4px
+      no-repeat,
+    conic-gradient(#0000 30%, #2652ff);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+  animation: s3 1s infinite linear;
+}
+
+@keyframes s3 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.sweet_titleImportant {
+  color: #101828 !important;
+  margin: auto !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+.sweet_textImportant {
+  color: #667085 !important;
+  margin: auto !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-top: 16px !important;
+  max-width: 352px;
+}
+
+.alert-btn {
+  color: #fff;
+  background-color: #2652ff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 352px;
+  height: 40px;
+  border-radius: 6px;
+}
+.alert-btn-cancel {
+  color: #2652ff;
+  background-color: #d4dcff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 170px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+.alert-btn-dialog {
+  color: #fff;
+  background-color: #2652ff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 170px;
+  height: 40px;
+  border-radius: 6px;
+}
