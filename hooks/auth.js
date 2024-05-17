@@ -24,7 +24,7 @@ export const useAuth = ({ middleware, redirectIfAuthenticated } = {}) => {
       .then((res) => res.data)
       .catch((error) => {
         if (error.response.status === 401) throw error;
-        router.push("/verify-email");
+        // router.push("/verify-email");
       })
   );
 
